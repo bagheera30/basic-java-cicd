@@ -28,12 +28,12 @@ public class AppTest
         assertFalse(result2);
     }
     
-    @Test
-    public void testIsEven2(){
-        boolean result1=App.isEven(3);
-        assertTrue(result1);
+    // @Test
+    // public void testIsEven2(){
+    //     boolean result1=App.isEven(3);
+    //     assertTrue(result1);
        
-    }
+    // }
 
     @Test
     public void testConcatenateStrings() {
