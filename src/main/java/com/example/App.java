@@ -1,14 +1,17 @@
 package com.example;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-        System.out.println( "Hai nama saya rizki" );
+public class App {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
     }
+
+    public static boolean isEven(int number) {
+        return number % 2 == 0;
+    }
+
+    public static String concatenateStrings(String str1, String str2) {
+        return str1 + str2;
+    }
+
+
 }
