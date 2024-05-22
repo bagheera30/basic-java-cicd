@@ -12,7 +12,9 @@ public class App {
 		
 		counter.decrement();
 		
+
 		System.out.println("Current count: " + counter.getCount());
+
 
     }
 
